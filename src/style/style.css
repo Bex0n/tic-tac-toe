@@ -1,0 +1,32 @@
+body {
+  min-height: 100vh;
+	min-width: 75vw;
+  display: flex;
+  align-items: center;
+	flex-direction: column;
+	justify-content: center;
+  background: aliceblue;
+}
+
+.gamegrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+  width: 32vw;
+  height: 32vw;
+  padding: 5vw;
+  background: #B0DAFF;
+}
+
+.gamegrid .button {
+  width: 10vw;
+  height: 10vw;
+  border: 0.17vw solid #70BCFF;
+  background: #70BCFF;
+  border-radius: 50%;
+}
+
+.gamegrid .button:hover {
+  border: 0.17vw solid black;
+}
